@@ -13,6 +13,16 @@ body {
 	animation: showBrownText 2s linear;
 }
 
+#brownbody{
+	text-shadow: 1px 1px #3862C6;
+	padding-bottom: 30px;
+}
+
+.profImg {
+	width: 150px;
+	height: 150px;
+}
+
 .brown1 {
 	animation: showBrownText 4s linear;
 }
