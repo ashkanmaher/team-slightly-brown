@@ -1,3 +1,47 @@
 body {
-	background: brown;
+	background: #6E7587;
+	color: #806641;
+}
+
+.jumbotron {
+	text-align: center;
+	padding: 10px 0;
+}
+
+.brownTitle {
+	text-align: center;
+	animation: showBrownText 2s linear;
+}
+
+.brown1 {
+	animation: showBrownText 4s linear;
+}
+
+.brown2 {
+	animation: showBrownText 5s linear;
+}
+
+.brown3 {
+	animation: showBrownText 6s linear;
+}
+
+@keyframes showBrownText {
+  0%, 80% {
+    -moz-transform: scale(0.6) translateZ(-100px);
+    -ms-transform: scale(0.6) translateZ(-100px);
+    -webkit-transform: scale(0.6) translateZ(-100px);
+    transform: scale(0.6) translateZ(-100px);
+    opacity: 0;
+    -webkit-filter: blur(2px);
+  }
+  90% {
+    -webkit-filter: blur(0);
+  }
+  100% {
+    -moz-transform: scale(1) translateZ(0);
+    -ms-transform: scale(1) translateZ(0);
+    -webkit-transform: scale(1) translateZ(0);
+    transform: scale(1) translateZ(0);
+    opacity: 1;
+  }
 }
