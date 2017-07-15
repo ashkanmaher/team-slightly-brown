@@ -1,6 +1,16 @@
 body {
 	background: #6E7587;
 	color: #806641;
+
+}
+.scream {
+height: 100%;
+
+
+
+}
+.navbar {
+  z-index: 100;
 }
 
 .jumbotron {
